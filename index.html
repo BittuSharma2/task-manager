@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="box">
+        <h2>Task Managers</h2>
+        <div class="btn">
+            <button  id="add">Add Task</button>
+        </div>
+        <div class="list">
+            <!-- <div class="task">first task <img class="del" src="./assets/dels.svg"></div> -->
+            <!-- <div class="task">second task</div> -->
+            
+        </div>
+        </div>
+    </div>
+    <div class="task-container">
+        <div class="task-box">
+            <h3>Add Task</h3>
+            <label>Date</label>
+            <input type="date" id="date">
+            <label>Subject</label>
+            <input type="text" id="subject">
+            <label>Message</label>
+            <textarea id="message" cols="30" rows="10"></textarea>
+            <div class="btn">
+                <button id="addtask">Add</button>
+            </div>
+        </div>
+        <button id="close">X</button>
+    </div>
+    
+</body>
+</html>
